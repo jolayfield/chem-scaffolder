@@ -1,0 +1,12 @@
+{
+  "title": "CHEM 111 \u2014 Chapter 5: Properties of Gases",
+  "course": "CHEM 111",
+  "calculators": [
+    "ideal_gas",
+    "sig_figs",
+    "practice"
+  ],
+  "periodic_table": true,
+  "sig_figs": 3,
+  "chapter": 5
+}

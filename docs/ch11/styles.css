@@ -1,0 +1,43 @@
+:root{--bg:#0f1420;--card:#1a2233;--ink:#e6ecf5;--mut:#8fa3bf;--acc:#4fa3ff;--ok:#3ddc84;--err:#ff6b6b}
+*{box-sizing:border-box}body{margin:0;font:16px/1.5 system-ui,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--ink)}
+header{padding:28px 20px 8px;max-width:900px;margin:0 auto}.course{color:var(--acc);font-weight:600;letter-spacing:.04em;text-transform:uppercase;font-size:.8rem}
+h1{margin:.1em 0 .4em;font-size:1.8rem}main{max-width:900px;margin:0 auto;padding:12px 20px 40px;display:grid;gap:18px}
+.card{background:var(--card);border:1px solid #24304a;border-radius:14px;padding:18px 20px}
+.card h2{margin:0 0 4px;font-size:1.2rem}.eq{color:var(--mut);font-weight:400;font-size:.95rem}
+.hint{color:var(--mut);margin:.2em 0 .8em;font-size:.9rem}
+label{display:flex;flex-direction:column;gap:4px;font-size:.85rem;color:var(--mut)}
+input,select{background:#0d1422;border:1px solid #2b3a58;color:var(--ink);border-radius:8px;padding:9px 10px;font-size:1rem}
+.pr-step{padding:2px 0;color:var(--mut);font-variant-numeric:tabular-nums}
+.work-toggle{background:transparent;color:var(--acc);border:1px solid #2b3a58;font-weight:400}
+.work-toggle:hover{border-color:var(--acc);background:#12203a}
+.work-body{margin-top:10px;padding:10px 12px;background:#0d1422;border:1px solid #2b3a58;border-radius:8px}
+.lw-row{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:6px 0;padding:6px 0;border-bottom:1px solid #24304a}
+.lw-row label{flex-direction:row;align-items:center;gap:6px}.lw-row input{width:64px}
+.lw-sym{font-weight:700;font-size:1.1rem;width:2ch}.lw-fc{margin-left:auto;font-variant-numeric:tabular-nums;font-size:.9rem}
+.lw-fc.ok{color:var(--ok)}.lw-fc.warn{color:var(--err)}
+.rs-item{display:flex;gap:8px;align-items:center;margin:4px 0}.rs-item span{min-width:0;flex:1}
+.rs-item button{margin:0;padding:2px 9px;background:#24304a;color:var(--ink)}
+.rs-reason{display:flex;gap:8px;align-items:flex-start;margin:4px 0;color:var(--ink);flex-direction:row;font-size:.92rem}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+@media(max-width:560px){.grid4{grid-template-columns:repeat(2,1fr)}}
+button{margin-top:10px;margin-right:8px;background:var(--acc);color:#06101f;border:0;border-radius:8px;padding:9px 16px;font-weight:600;cursor:pointer}
+button:hover{filter:brightness(1.08)}
+.result{margin-top:12px;padding:10px 12px;border-radius:8px;background:#0d1422;border:1px solid #2b3a58;font-variant-numeric:tabular-nums;min-height:1.2em}
+.result.ok{border-color:var(--ok);color:var(--ok)}.result.err{border-color:var(--err);color:var(--err)}
+.pt-grid{display:grid;grid-template-columns:repeat(9,1fr);gap:6px}@media(max-width:560px){.pt-grid{grid-template-columns:repeat(6,1fr)}}
+.pt-cell{margin:0;background:#12203a;color:var(--ink);border:1px solid #2b3a58;border-radius:6px;padding:6px 2px;display:flex;flex-direction:column;align-items:center;font-weight:400}
+.pt-cell:hover{border-color:var(--acc)}.pt-no{font-size:.6rem;color:var(--mut)}.pt-sym{font-size:1rem;font-weight:700}
+.rr-grid{display:flex;align-items:stretch;flex-wrap:wrap;margin:16px 0;font-variant-numeric:tabular-nums;font-size:1.05rem}
+.rr-col{display:flex;flex-direction:column;justify-content:center;padding:6px 16px;position:relative;min-width:60px}
+.rr-col:not(.rr-start){border-left:2px solid #3a4a6a}
+.rr-num{padding:8px 0;text-align:center}
+.rr-den{padding:8px 0;text-align:center;border-top:2px solid #3a4a6a}
+.rr-start .rr-num{font-weight:700}
+.rru{padding:0 1px}
+.rru.cancel{text-decoration:line-through;text-decoration-thickness:2px;text-decoration-color:var(--err);color:var(--mut)}
+#railroad .result.ok{font-size:1.05rem}
+.rr-ctrls{position:absolute;top:-10px;right:2px;display:flex;gap:3px}
+.rr-ctrls button{margin:0;padding:0 6px;font-size:.72rem;line-height:1.7;background:#24304a;color:var(--ink);border:1px solid #2b3a58}
+#rr-palette button{margin:4px 8px 4px 0;background:#12203a;color:var(--ink);border:1px solid #2b3a58;font-weight:400}
+#rr-palette button:hover{border-color:var(--acc)}
+footer{max-width:900px;margin:0 auto;padding:0 20px 30px;color:var(--mut);font-size:.8rem}

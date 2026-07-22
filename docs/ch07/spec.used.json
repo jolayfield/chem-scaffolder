@@ -1,0 +1,12 @@
+{
+  "title": "CHEM 111 \u2014 Chapter 7: A Quantum Model of Atoms",
+  "course": "CHEM 111",
+  "calculators": [
+    "sig_figs",
+    "reasoning",
+    "practice"
+  ],
+  "periodic_table": true,
+  "sig_figs": 3,
+  "chapter": 7
+}

@@ -1,0 +1,12 @@
+{
+  "title": "CHEM 111 \u2014 Chapter 4: Reactions in Solution",
+  "course": "CHEM 111",
+  "calculators": [
+    "stoichiometry",
+    "sig_figs",
+    "practice"
+  ],
+  "periodic_table": true,
+  "sig_figs": 3,
+  "chapter": 4
+}

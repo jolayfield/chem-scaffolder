@@ -1,0 +1,11 @@
+{
+  "title": "CHEM 111 \u2014 Chapter 1: Particles of Matter",
+  "course": "CHEM 111",
+  "calculators": [
+    "railroad",
+    "practice"
+  ],
+  "periodic_table": true,
+  "sig_figs": 3,
+  "chapter": 1
+}

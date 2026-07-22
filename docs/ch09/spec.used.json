@@ -1,0 +1,12 @@
+{
+  "title": "CHEM 111 \u2014 Chapter 9: Molecular Geometry",
+  "course": "CHEM 111",
+  "calculators": [
+    "lewis",
+    "reasoning",
+    "sig_figs"
+  ],
+  "periodic_table": true,
+  "sig_figs": 3,
+  "chapter": 9
+}

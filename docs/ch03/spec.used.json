@@ -1,0 +1,13 @@
+{
+  "title": "CHEM 111 \u2014 Chapter 3: Stoichiometry",
+  "course": "CHEM 111",
+  "calculators": [
+    "stoichiometry",
+    "sig_figs",
+    "railroad",
+    "practice"
+  ],
+  "periodic_table": true,
+  "sig_figs": 3,
+  "chapter": 3
+}

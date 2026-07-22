@@ -1,0 +1,11 @@
+{
+  "title": "CHEM 111 \u2014 Chapter 6: Thermochemistry",
+  "course": "CHEM 111",
+  "calculators": [
+    "sig_figs",
+    "practice"
+  ],
+  "periodic_table": true,
+  "sig_figs": 3,
+  "chapter": 6
+}

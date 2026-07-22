@@ -1,0 +1,12 @@
+{
+  "title": "CHEM 111 \u2014 Chapter 2: Atoms, Ions, and Molecules",
+  "course": "CHEM 111",
+  "calculators": [
+    "nomenclature",
+    "sig_figs",
+    "practice"
+  ],
+  "periodic_table": true,
+  "sig_figs": 3,
+  "chapter": 2
+}
